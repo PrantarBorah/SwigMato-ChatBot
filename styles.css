@@ -1,0 +1,173 @@
+/* Existing global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #006400;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .order-btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: #32cd32;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-section {
+    padding: 50px 20px;
+    background-color: #e5f2e5;
+}
+
+.menu-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #006400;
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-text {
+    margin-top: 10px;
+}
+
+.menu-text h3 {
+    color: #006400;
+    font-size: 22px;
+}
+
+.menu-text p {
+    color: #ffcc00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Location Section Styling */
+.location-section {
+    text-align: center; /* Center-aligns the text */
+    background-color: #e5ffe5; /* Light green background for the location section */
+    padding: 50px 20px; /* Adds padding around the content */
+    margin: 30px auto; /* Centers the section and adds margin for spacing */
+    border-radius: 10px; /* Rounds the corners of the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    max-width: 960px; /* Restricts the maximum width of the section */
+}
+
+.location-section h2 {
+    color: #006400; /* Green text for the heading */
+    font-size: 30px; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.location-section p {
+    font-size: 18px; /* Larger font size for the paragraph */
+    color: #333; /* Dark grey color for text */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+iframe {
+    border-radius: 10px; /* Rounds the corners of the Google Maps iframe */
+    width: 100%; /* Ensures the iframe takes the full width of its container */
+    height: 450px; /* Sets a fixed height for the iframe */
+    border: none; /* Removes the default border around iframes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds shadow to the iframe for depth */
+}
+
+footer {
+    background-color: #006400;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
