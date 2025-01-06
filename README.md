@@ -14,3 +14,8 @@ FastAPI: High-performance Python web framework for API development.
 MySQL: Database management for order storage and retrieval.
 Python: Core programming language for backend development.
 
+# Efficient Code Organization:
+
+main.py: Orchestrates request handling, intent processing, and response generation.
+generic_helper.py: Utilities for session ID extraction and string formatting for user-friendly responses.
+db_helper.py: Handles all database operations, ensuring scalability and maintainability.
